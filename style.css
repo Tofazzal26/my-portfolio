@@ -332,7 +332,26 @@
 
 
 
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.project-container h2 {
+    font-size: 2rem;
+    font-family: "Poppin", sans-serif;
+    color: #4e4d4d;
+    text-align: center;
+    margin: 8rem ;
+}
+.img-project {
+    margin: 2rem;
+}
+
+.img-project img {
+    width: 400px;
+}
 
 
 
