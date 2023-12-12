@@ -416,12 +416,23 @@
     justify-content: center;
 }
 
-.cell-phone {
-    display: flex;
+
+
+.contact-area {
+  font-family: "Poppin", sans-serif;
+
 }
 
-
-
+.contact-area p {
+    padding: 10px;
+    font-size: 15px;
+    color: #4e4d4d;
+}
+.contact-area h3 {
+    padding: 10px;
+    color: #4e4d4d;
+    font-size: 1.5rem;
+}
 
 
 
