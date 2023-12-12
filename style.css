@@ -351,9 +351,13 @@
 
 .img-project img {
     width: 400px;
+    cursor: pointer;
+    transition: .7s;
 }
 
-
+.img-project img:hover {
+    transform: scale(1.2);
+}
 
 /* responsibe code here */
 
