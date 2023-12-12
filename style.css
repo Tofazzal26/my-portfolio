@@ -371,28 +371,61 @@
 
 
 .form .name {
-    width: 20rem;
-    height: 2rem;
+    width: 25rem;
+    height: 2.6rem;
     outline: none;
     overflow: hidden;
     padding: 10px;
 }
 
-
+.form {
+    margin: 5rem;
+}
 .form .subject {
-    width: 40.2rem;
-    height: 2rem;
+    width: 50.2rem;
+    height: 2.6rem;
     outline: none;
     overflow: hidden;
     padding: 10px;
 }
 
 .form .textArea {
-    width: 40.2rem;
-    height: 6rem;
+    width: 50.2rem;
+    height: 8rem;
     outline: none;
     overflow: hidden;
+    padding: 10px;
 }
+
+
+.login-form {
+    margin: 10rem;
+}
+.login-form h2 {
+    text-align: center;
+    margin: 5rem;
+    font-size: 2rem;
+    font-family: "Poppin", sans-serif;
+    color: #4e4d4d;
+}
+
+
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cell-phone {
+    display: flex;
+}
+
+
+
+
+
+
+
 
 
 
