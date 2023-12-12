@@ -407,6 +407,7 @@
     font-size: 2rem;
     font-family: "Poppin", sans-serif;
     color: #4e4d4d;
+    
 }
 
 
@@ -414,13 +415,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 15rem;
 }
 
 
 
 .contact-area {
   font-family: "Poppin", sans-serif;
-
+    margin-bottom: 5rem;
 }
 
 .contact-area p {
@@ -434,9 +436,26 @@
     font-size: 1.5rem;
 }
 
+.submit {
+    width: 140px;
+    height: 46px;
+    position: relative;
+    margin-right: 15rem;
+    margin-top: 1rem;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #d9832e;
+    color: white;
+    outline: none;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
 
-
-
+.submit:hover {
+    background-color: #090a0c;
+}
 
 
 
