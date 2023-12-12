@@ -367,12 +367,32 @@
 
 
 
+/* form section add */
 
 
+.form .name {
+    width: 20rem;
+    height: 2rem;
+    outline: none;
+    overflow: hidden;
+    padding: 10px;
+}
 
 
+.form .subject {
+    width: 40.2rem;
+    height: 2rem;
+    outline: none;
+    overflow: hidden;
+    padding: 10px;
+}
 
-
+.form .textArea {
+    width: 40.2rem;
+    height: 6rem;
+    outline: none;
+    overflow: hidden;
+}
 
 
 
