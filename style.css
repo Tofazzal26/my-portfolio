@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    z-index: 100;
+    position: fixed;
+}
+
+.logo h2{
+    color: #090a0c;
+    font-family: Arial, sans-serif;
+    margin-left: 8rem;
+    padding-top: 16px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    margin-right: 9rem;
+    gap: 30px;
+}
+
+.nav ul li a{
+    color: rgba(9, 10, 12, 0.8);
+    text-decoration: none;
+    font-family:  Arial, sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.nav ul li a:hover {
+    color: #d9832e;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.hello-there {
+    margin-left: 24rem;
+}
+
+.hello-there h2{
+    color:  rgb(39, 39, 39);
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+}
+.hello-there h1 {
+    padding-top: 18px;
+    font-size: 60px;
+    font-family: Arial, sans-serif;
+}
+.hello-there h3 {
+    color: rgb(39, 39, 39);
+    font-size: 20px;
+    padding-top: 18px;
+    font-family: Arial, sans-serif;
+}
+.hello-there p{
+    color:  rgba(9, 10, 12, 0.8);
+    width: 500px;
+    padding-top: 18px;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+
+.btn-main {
+    padding-top: 30px;
+}
+.btn {
+    color: white;
+    background-color: #d9832e;
+    width: 120px;
+    height: 46px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.8s;
+    font-weight: 600;   
+}
+.btn:hover {
+    background-color: black;
+}
+.btn2 {
+    color: #d9832e;
+    width: 120px;
+    height: 46px;
+    outline: none;
+    border: 2px solid #d9832e;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.8s;
+}
+.btn2:hover {
+    color: white;
+    background-color: #d9832e;
+}
+.img {
+    margin-right: 25rem;
+}
+
+
+.About-me {
+    width: 100%;
+    height: 80vh;
+    background-color: #eaedf2;
+}
+.About-me h2 {
+    padding-top: 10vh;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    margin-left: 24rem;
+}
+.About-me p {
+    color: rgba(9, 10, 12, 0.8);
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    word-spacing: 2px;
+    padding-top: 20px;
+    letter-spacing: 2px;
+    margin-left: 24rem;
+}
+.img2 img {
+    width: 450px;
+    margin-left: 24rem;
+    padding-top: 60px;
+}
+.main-about {
+    display: flex;
+}
+.about-text {
+   margin-top: 50px;
+}
+.about-text h2{
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: Arial, sans-serif;
+}
+/* 
+.style {
+    color: #1f2020;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    margin-left: 24rem;
+    font-family: Arial, Helvetica, sans-serif;
+} */
+.about-text p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.contact {
+    color: white;
+    background-color: #d9832e;
+    width: 140px;
+    height: 46px;
+    outline: none;
+    border: none;
+    border: 2px solid #d9832e;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: 0.8s;
+}
+.contact:hover {
+    color: white;
+    background-color: black;
+    border: none;
+}
+.btn3 {
+    margin-left: 23.3rem;
+    padding-top: 30px;
+}
+
+
+/* project section start */
+
+
+.service_section {
+    width: 100%;
+	padding: 100px 0;
+}
+
+.title .ser {
+    color: #4e4d4d; 
+    text-align: center;
+	font-size: 35px;
+	font-family: arial;
+	margin-bottom: 30px;
+}
+
+.box {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.card {
+    width: 365px;
+    height: 365px;
+    text-align: center;
+    /* background-color: rgb(255, 255, 255); */
+    box-shadow: 5px 5px 45px gray;
+    position: relative;
+    padding: 20px 35px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.card i{
+	font-size: 53px;
+	color: #d9832e;
+	padding-top: 30px;
+}
+
+
+.card .wd{
+	color: black;
+	font-family: arial;
+	padding-top: 20px;
+}
+.card .p4{
+	color: #7B7B7B;
+	font-size: 16px;
+	font-family: arial;
+	padding-top: 20px;
+	line-height: 28px;
+}
+
+
+.card .btn4{
+	color: black;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #d9832e;
+	border: 2px solid transparent;
+	border-radius: 30px;
+	font-weight: bold;
+	line-height: 60px;
+	transition: .4s;
+}
+
+.card .btn4:hover{
+	background-color: transparent;
+	border: 2px solid black;
+	transition: .4s;
+}
+
+
+
+
+
+.my-skills h2 {
+    text-align: center;
+    font-family: "Poppin", sans-serif;
+    font-size: 2rem;
+    color: #4e4d4d;
+    margin: 2rem;
+}
+
+.skills {
+    max-width: 100%;
+    padding: 0 20px;
+    width: 600px;
+}
+.skill_name{
+    font-size: 18px;
+	color: black;
+	font-family: arial;
+	font-weight: 700;
+	margin: 20px 0;
+	text-transform: uppercase;
+}
+
+.skill_bar {
+    height: 14px;
+    background-color: #090a0c;
+    border-radius: 3px;
+    position: relative;
+}
+
+.skill_per {
+    height: 14px;
+    background-color: #d9832e;
+    border-radius: 3px;
+    position: relative;
+	animation: fillBars 2.5s 1;
+}
+.skill_per p {
+    font-family: "Poppin", sans-serif;
+    font-weight: 600;
+    color: black;
+    text-align: right;
+}
+
+.skills {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 5rem 40rem;
+}
+
+
+
+
+
+
+
+/* responsibe code here */
+
+@media screen and (max-width: 720px) {
+    /*CSS codes go here*/
+  }
