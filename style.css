@@ -223,9 +223,14 @@
 	align-items: center;
 	justify-content: center;
 }
+.card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
 
 
 .card {
+    transition: 0.7s;
     width: 365px;
     height: 365px;
     text-align: center;
@@ -359,8 +364,23 @@
     transform: scale(1.2);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsibe code here */
 
 @media screen and (max-width: 720px) {
     /*CSS codes go here*/
   }
+
