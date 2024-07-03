@@ -2,9 +2,14 @@ import { Parallax } from "react-parallax";
 import "./ParallaxFooter.css";
 import imgFooter from "../../assets/footer.webp";
 import { HiOutlineHomeModern } from "react-icons/hi2";
-import { FaPhoneAlt } from "react-icons/fa";
-import { FaMessage } from "react-icons/fa6";
-import { MdEmail, MdOutlineMail } from "react-icons/md";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaPhoneAlt,
+  FaReact,
+  FaTwitter,
+} from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
     <div>
@@ -13,7 +18,7 @@ const Footer = () => {
           <div
             className="bg-black opacity-70"
             style={{
-              height: 500,
+              height: 600,
               backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5))`,
             }}
           >
@@ -44,53 +49,56 @@ const Footer = () => {
                   </p>
                 </div>
               </div>
-              {/* ==================mail section submit====================== */}
-              <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
-                <form noValidate="" className="space-y-6">
-                  <div>
-                    <label htmlFor="name" className="text-sm">
-                      Full name
-                    </label>
+              {/* ==================From & mail section submit====================== */}
+
+              <form noValidate="" className="space-y-6 px-24 pt-12">
+                <div className="flex items-center justify-between gap-10">
+                  <div className="w-full">
                     <input
                       id="name"
                       type="text"
-                      placeholder=""
-                      className="w-full p-3 rounded dark:bg-gray-100"
+                      placeholder="Name"
+                      className="w-full p-3 bg-black text-white border-[#333] border rounded"
                     />
                   </div>
-                  <div>
-                    <label htmlFor="email" className="text-sm">
-                      Email
-                    </label>
+                  <div className="w-full">
                     <input
-                      id="email"
-                      type="email"
-                      className="w-full p-3 rounded dark:bg-gray-100"
+                      id="name"
+                      type="text"
+                      placeholder="Email"
+                      className="w-full p-3 bg-black text-white border-[#333] border rounded"
                     />
                   </div>
-                  <div>
-                    <label htmlFor="message" className="text-sm">
-                      Message
-                    </label>
-                    <textarea
-                      id="message"
-                      rows="3"
-                      className="w-full p-3 rounded dark:bg-gray-100"
-                    ></textarea>
-                  </div>
-                  <button
-                    type="submit"
-                    className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded dark:bg-violet-600 dark:text-gray-50"
-                  >
-                    Send Message
-                  </button>
-                </form>
-              </div>
+                </div>
+                <div>
+                  <textarea
+                    id="message"
+                    rows="3"
+                    placeholder="Your Message"
+                    className="w-full p-3  bg-black text-white border-[#333] border rounded"
+                  ></textarea>
+                </div>
+
+                <button
+                  type="submit"
+                  className=" p-4 text-xs font-light tracking-widest uppercase rounded-full  bg-black text-white border-gray-500 border"
+                >
+                  Submit Now
+                </button>
+              </form>
             </div>
           </div>
         </Parallax>
-        <footer className="footer-content bg-black w-full h-60">
-          <p>&copy; 2024 Your Company. All rights reserved.</p>
+        <footer className=" bg-[#0C0B0B] w-full h-52 text-center text-[#fff]">
+          <div className="flex items-center justify-center gap-4 mt-14">
+            <FaFacebook size={21} className="text-[#0866FF]" />
+            <FaTwitter size={21} className="text-[#5a99ff]" />
+            <FaInstagram size={21} className="text-[#EC6453]" />
+            <FaReact size={21} className="text-[#ce4bce]" />
+          </div>
+          <p className="tracking-widest text-sm mt-5">
+            &copy; Copyright 2024 | All right reserved
+          </p>
         </footer>
       </div>
     </div>

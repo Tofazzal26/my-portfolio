@@ -29,6 +29,12 @@ const Home = () => {
             <li>
               <a href="#about">About</a>
             </li>
+            <li>
+              <a href="#skill">Skill</a>
+            </li>
+            <li>
+              <a href="#blog">Blog</a>
+            </li>
           </ul>
         </div>
         {/* ==================NavBar section=================== */}

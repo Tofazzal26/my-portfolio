@@ -1,6 +1,9 @@
 const MySkills = () => {
   return (
-    <div className="font-one bg-[#1B1B1B] text-[#fff] w-full h-[400px] text-center">
+    <div
+      id="skill"
+      className="font-one bg-[#1B1B1B] text-[#fff] w-full h-[400px] text-center"
+    >
       <h1 className="tracking-widest text-2xl font-bold capitalize pt-12">
         My Key Skills.
       </h1>
