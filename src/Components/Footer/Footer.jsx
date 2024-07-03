@@ -1,46 +1,98 @@
+import { Parallax } from "react-parallax";
+import "./ParallaxFooter.css";
+import imgFooter from "../../assets/footer.webp";
+import { HiOutlineHomeModern } from "react-icons/hi2";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaMessage } from "react-icons/fa6";
+import { MdEmail, MdOutlineMail } from "react-icons/md";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer bg-base-200 text-base-content p-10">
-        <aside>
-          <svg
-            width="50"
-            height="50"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-            fillRule="evenodd"
-            clipRule="evenodd"
-            className="fill-current"
+      <div>
+        <Parallax bgImage={imgFooter} strength={500}>
+          <div
+            className="bg-black opacity-70"
+            style={{
+              height: 500,
+              backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5))`,
+            }}
           >
-            <path d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path>
-          </svg>
-          <p>
-            ACME Industries Ltd.
-            <br />
-            Providing reliable tech since 1992
-          </p>
-        </aside>
-        <nav>
-          <h6 className="footer-title">Services</h6>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title">Company</h6>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-          <h6 className="footer-title">Legal</h6>
-          <a className="link link-hover">Terms of use</a>
-          <a className="link link-hover">Privacy policy</a>
-          <a className="link link-hover">Cookie policy</a>
-        </nav>
-      </footer>
+            <div className="text-center pt-16 text-white space-y-8">
+              <h2 className="font-bold capitalize leading-3 text-2xl tracking-widest">
+                Say Hello!
+              </h2>
+              <div className="grid grid-cols-3 pt-8">
+                <div>
+                  <HiOutlineHomeModern
+                    size={35}
+                    className="text-center mx-auto"
+                  />
+                  <p className="font-light tracking-widest mt-2">
+                    Gazipur,Dhaka,Bangladesh
+                  </p>
+                </div>
+                <div>
+                  <FaPhoneAlt size={35} className="text-center mx-auto" />
+                  <p className="font-light tracking-widest mt-2">
+                    +8801826384854
+                  </p>
+                </div>
+                <div>
+                  <MdEmail size={35} className="text-center mx-auto" />
+                  <p className="font-light tracking-widest mt-2">
+                    1999workmail@gmail.com
+                  </p>
+                </div>
+              </div>
+              {/* ==================mail section submit====================== */}
+              <div className="grid max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
+                <form noValidate="" className="space-y-6">
+                  <div>
+                    <label htmlFor="name" className="text-sm">
+                      Full name
+                    </label>
+                    <input
+                      id="name"
+                      type="text"
+                      placeholder=""
+                      className="w-full p-3 rounded dark:bg-gray-100"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="email" className="text-sm">
+                      Email
+                    </label>
+                    <input
+                      id="email"
+                      type="email"
+                      className="w-full p-3 rounded dark:bg-gray-100"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="message" className="text-sm">
+                      Message
+                    </label>
+                    <textarea
+                      id="message"
+                      rows="3"
+                      className="w-full p-3 rounded dark:bg-gray-100"
+                    ></textarea>
+                  </div>
+                  <button
+                    type="submit"
+                    className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded dark:bg-violet-600 dark:text-gray-50"
+                  >
+                    Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </Parallax>
+        <footer className="footer-content bg-black w-full h-60">
+          <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </footer>
+      </div>
     </div>
   );
 };

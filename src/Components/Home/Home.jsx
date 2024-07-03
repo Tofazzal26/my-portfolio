@@ -1,6 +1,6 @@
 import { VscMenu } from "react-icons/vsc";
 import tow from "../../assets/tow.png";
-import { Link, NavLink } from "react-router-dom";
+
 const Home = () => {
   return (
     <div className="font-open" id="home">
