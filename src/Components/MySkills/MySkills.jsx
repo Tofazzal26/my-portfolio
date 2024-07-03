@@ -7,7 +7,7 @@ const MySkills = () => {
       <div className="grid grid-cols-3 gap-10 p-8 mx-auto ml-24">
         <div className="flex flex-col justify-evenly items-start">
           <h1 className="mb-3 tracking-widest capitalize">Html5</h1>
-          <progress className="progress w-56 bg-[#fff]"></progress>
+          <progress className="progress w-56 bg-orange-500"></progress>
         </div>
         <div className="flex flex-col justify-evenly items-start">
           <h1 className="mb-3 tracking-widest capitalize">Css3</h1>
@@ -15,7 +15,7 @@ const MySkills = () => {
         </div>
         <div className="flex flex-col justify-evenly items-start">
           <h1 className="mb-3 tracking-widest capitalize">Javascript</h1>
-          <progress className="progress w-56 bg-[#fff]"></progress>
+          <progress className="progress w-56 bg-orange-500"></progress>
         </div>
         <div className="flex flex-col justify-evenly items-start">
           <h1 className="mb-3 tracking-widest capitalize">Responsive Design</h1>
@@ -23,7 +23,7 @@ const MySkills = () => {
         </div>
         <div className="flex flex-col justify-evenly items-start">
           <h1 className="mb-3 tracking-widest capitalize">React.js</h1>
-          <progress className="progress w-56 bg-[#fff]"></progress>
+          <progress className="progress w-56 bg-orange-500"></progress>
         </div>
         <div className="flex flex-col justify-evenly items-start">
           <h1 className="mb-3 tracking-widest capitalize">TailwindCss</h1>
