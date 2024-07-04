@@ -1,5 +1,5 @@
 import { VscMenu } from "react-icons/vsc";
-import tow from "../../assets/tow.png";
+import tow from "../../assets/cover-img.jpg";
 
 const Home = () => {
   return (
@@ -15,27 +15,29 @@ const Home = () => {
         }}
       >
         {/* ==================NavBar section=================== */}
-        <div className="dropdown float-right dropdown-left pt-12 mr-16">
-          <div tabIndex={0} role="button" className=" m-1">
-            <VscMenu size={33} className="text-gray-400" />
+        <div className="fixed w-full z-10">
+          <div className=" dropdown float-right dropdown-left pt-12 mr-16 ">
+            <div tabIndex={0} role="button" className="mr-1 ">
+              <VscMenu size={33} className="text-gray-400" />
+            </div>
+            <ul
+              tabIndex={0}
+              className="dropdown-content flex flex-row menu bg-black text-white  z-[1] w-80 h-10 text-center mx-auto  mr-3 p-1 shadow mt-[50px] "
+            >
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#blog">Blog</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
           </div>
-          <ul
-            tabIndex={0}
-            className="dropdown-content flex flex-row menu bg-black text-white  z-[1] w-52 p-1 shadow mt-12"
-          >
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#skill">Skill</a>
-            </li>
-            <li>
-              <a href="#blog">Blog</a>
-            </li>
-          </ul>
         </div>
         {/* ==================NavBar section=================== */}
         <h1 className="text-7xl text-center text-[#fafafa] capitalize tracking-widest font-bold pt-60">
@@ -45,6 +47,16 @@ const Home = () => {
           <span className="font-bold">W</span>eb-
           <span className="font-bold">D</span>eveloper
         </p>
+        <div className="text-center mt-44">
+          <button
+            type="submit"
+            className="btn btn-outline p-4 text-xs font-light tracking-widest uppercase rounded-full   text-white border-gray-800 border text-center mx-auto"
+          >
+            <a href="RESUME-PH.pdf" download>
+              Download resume
+            </a>
+          </button>
+        </div>
       </div>
     </div>
   );

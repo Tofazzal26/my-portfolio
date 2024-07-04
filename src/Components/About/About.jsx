@@ -6,16 +6,21 @@ const About = () => {
         Behind The Story!
       </h1>
       <p className="font-light  text-center mx-auto tracking-wider leading-7">
-        Hello, i am <span className="font-bold">Nayem Khan</span> Lorem Ipsum is
-        simply dummy <span className="font-bold">web developer</span> text of
-        the printing and <br />
-        typesetting industry. Lorem Ipsum has been the industry's standard dummy
-        text ever since the 1500s, <br /> when an unknown printer took a galley
-        of type and scrambled it to make a type specimen book. It has <br />
-        survived not only five centuries, but also the leap into electronic
-        typesetting, remaining standard <br /> dummy text ever since the 1500s,
-        when an unknown printer took a galley.
+        Hello, i am <span className="font-bold">Nayem</span> a Front-End
+        <span className="font-bold ml-2">web developer</span> based in Dhaka,
+        Bangladesh. Currently, I'm study on
+        <br />
+        bachelor of arts in Islamic history & culture. I'm expert in HTML5,
+        CSS3, Tailwind CSS, JavaScript, React JS,
+        <br /> Next JS and more.. I thrive in challenging environments that
+        require problem-solving skills and a proactive approach <br /> to
+        learning new technologies. I am enthusiastic about contributing to
+        innovative projects and continuously expanding <br /> my skill set. My
+        dedication to staying current with industry trends ensures that I am
+        always
+        <br /> prepared to implement the latest advancements in technology.
       </p>
+
       <img
         className="w-[380px] mx-auto font-bold"
         src={signature}

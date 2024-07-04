@@ -12,7 +12,7 @@ import {
 import { MdEmail } from "react-icons/md";
 const Footer = () => {
   return (
-    <div>
+    <div id="contact">
       <div>
         <Parallax bgImage={imgFooter} strength={500}>
           <div
