@@ -1,5 +1,5 @@
 import { VscMenu } from "react-icons/vsc";
-import tow from "../../assets/cover-img.jpg";
+import tow from "../../../public/banner/me3.jpg";
 
 const Home = () => {
   return (
@@ -41,7 +41,7 @@ const Home = () => {
         </div>
         {/* ==================NavBar section=================== */}
         <h1 className="text-7xl text-center text-[#fafafa] capitalize tracking-widest font-bold pt-60">
-          Mr. Nayem Khan
+          Tofazzal Hossain
         </h1>
         <p className="text-center text-[#fafafa] pt-8 font-light tracking-widest text-xl">
           <span className="font-bold">W</span>eb-
@@ -52,7 +52,7 @@ const Home = () => {
             type="submit"
             className="btn btn-outline p-4 text-xs font-light tracking-widest uppercase rounded-full   text-white border-gray-800 border text-center mx-auto"
           >
-            <a href="RESUME-PH.pdf" download>
+            <a href="MYRESUME.pdf" download>
               Download resume
             </a>
           </button>

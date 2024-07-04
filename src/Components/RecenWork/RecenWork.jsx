@@ -11,23 +11,23 @@ const RecenWork = () => {
       <h1 className="font-bold capitalize text-2xl leading-5 tracking-widest mb-10">
         My Recent Works.
       </h1>
-      <div className="grid grid-cols-3 gap-8 px-10 mx-auto ml-10">
-        <div className="card bg-base-100  shadow-xl  border-2 rounded-none w-[360px] styleImg">
+      <div className="grid grid-cols-3 gap-16 px-10 mx-auto ml-10">
+        <div className="card bg-base-100  shadow-xl  border-2 rounded-none  styleImg">
           <img className="" src={ten} alt="Shoes" />
         </div>
-        <div className="card bg-base-100  shadow-xl  border-2 rounded-none w-[360px] styleImg">
+        <div className="card bg-base-100  shadow-xl  border-2 rounded-none  styleImg">
           <img className="" src={eleven} alt="Shoes" />
         </div>
-        <div className="card bg-base-100  shadow-xl  border-2 rounded-none w-[360px] styleImg">
+        <div className="card bg-base-100  shadow-xl  border-2 rounded-none  styleImg">
           <img className="" src={twelve} alt="Shoes" />
         </div>
-        <div className="card bg-base-100  shadow-xl  border-2 rounded-none w-[360px] styleImg">
+        <div className="card bg-base-100  shadow-xl  border-2 rounded-none  styleImg">
           <img className="" src={thirteen} alt="Shoes" />
         </div>
-        <div className="card bg-base-100  shadow-xl  border-2 rounded-none w-[360px] styleImg">
+        <div className="card bg-base-100  shadow-xl  border-2 rounded-none  styleImg">
           <img className="" src={fourteen} alt="Shoes" />
         </div>
-        <div className="card bg-base-100  shadow-xl  border-2 rounded-none w-[360px] styleImg">
+        <div className="card bg-base-100  shadow-xl  border-2 rounded-none  styleImg">
           <img className="" src={fifteen} alt="Shoes" />
         </div>
       </div>
@@ -36,25 +36,25 @@ const RecenWork = () => {
         <div className="font-one bg-[#1B1B1B] text-[#fff] w-full h-[300px] text-center">
           <div className="grid grid-cols-4 gap-8 pt-28">
             <div className="flex flex-col items-center justify-center">
-              <CountUp className="text-7xl font-medium" end={198} />
+              <CountUp className="text-7xl font-medium" end={298} />
               <p className="text-[14px] capitalize text-[#fafafa] mt-3 tracking-widest font-normal">
                 Total Contributions
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <CountUp className="text-7xl font-medium" end={31} />
+              <CountUp className="text-7xl font-medium" end={51} />
               <p className="text-[14px] capitalize text-[#fafafa] mt-3 tracking-widest font-normal">
                 Complete Project
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <CountUp className="text-7xl font-medium" end={8} />
+              <CountUp className="text-7xl font-medium" end={28} />
               <p className="text-[14px] capitalize text-[#fafafa] mt-3 tracking-widest font-normal">
                 Longest Streak
               </p>
             </div>
             <div className="flex flex-col items-center justify-center">
-              <CountUp className="text-7xl font-medium" end={2} />
+              <CountUp className="text-7xl font-medium" end={12} />
               <p className="text-[14px] capitalize text-[#fafafa] mt-3 tracking-widest font-normal">
                 Current Streak
               </p>

@@ -1,12 +1,12 @@
 import signature from "../../assets/img-removebg-preview.png";
 const About = () => {
   return (
-    <div className="text-center mt-28 font-one" id="about">
+    <div className="text-center mt-28 font-one mb-12" id="about">
       <h1 className="font-semibold capitalize tracking-widest text-2xl mb-5">
         Behind The Story!
       </h1>
       <p className="font-light  text-center mx-auto tracking-wider leading-7">
-        Hello, i am <span className="font-bold">Nayem</span> a Front-End
+        Hello, i am <span className="font-bold">Tofazzal</span> a Front-End
         <span className="font-bold ml-2">web developer</span> based in Dhaka,
         Bangladesh. Currently, I'm study on
         <br />
@@ -20,12 +20,6 @@ const About = () => {
         always
         <br /> prepared to implement the latest advancements in technology.
       </p>
-
-      <img
-        className="w-[380px] mx-auto font-bold"
-        src={signature}
-        alt="signature"
-      />
     </div>
   );
 };
