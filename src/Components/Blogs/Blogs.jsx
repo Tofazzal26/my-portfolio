@@ -28,17 +28,14 @@ const Blogs = () => {
             <div>
               <h1 className="font-bold mb-2">
                 live link url:
-                <a
-                  href="https://zippy-faloodeh-6b6412.netlify.app"
-                  target="blank"
-                >
+                <a href="https://transcreaw.web.app" target="blank">
                   <span className="font-semibold text-blue-500 ml-2">
-                    https://zippy-faloodeh-6b6412.netlify.app
+                    https://transcreaw.web.app
                   </span>
                 </a>
               </h1>
               <a
-                href="https://github.com/nayemkhan1999/Destination-Dream-Client-sidte-a10?tab=readme-ov-file"
+                href="https://github.com/programming-hero-web-course1/b9a12-client-side-Tofazzal26?tab=readme-ov-file"
                 target="blank"
               >
                 <span className="font-medium text-blue-500 ml-2 ">
@@ -47,7 +44,7 @@ const Blogs = () => {
               </a>
               <span className="ml-3 font-bold">||</span>
               <a
-                href="https://github.com/nayemkhan1999/Destination-Dream-Server-site-a10"
+                href="https://github.com/programming-hero-web-course1/b9a12-server-side-Tofazzal26"
                 target="blank"
               >
                 <span className="font-medium text-blue-500 ml-2 ">
@@ -95,29 +92,21 @@ const Blogs = () => {
             <div>
               <h1 className="font-bold mb-2">
                 live link url:
-                <a href="https://hotel-booking-d7e89.web.app" target="blank">
+                <a
+                  href="https://661e20134c9523a5b4ca1a11--tangerine-madeleine-b7a200.netlify.app"
+                  target="blank"
+                >
                   <span className="font-semibold text-blue-500 ml-2">
-                    https://hotel-booking-d7e89.web.app
+                    https://661e20134c9523a5b4ca1a11--tangerine-madeleine-b7a200.netlify.app
                   </span>
                 </a>
               </h1>
-              <a
-                href="https://github.com/nayemkhan1999/Hotel-Booking-Client-side-a11"
-                target="blank"
-              >
-                <span className="font-medium text-blue-500 ml-2 ">
-                  GitHub Client-site link
-                </span>
-              </a>
+
               <span className="ml-3 font-bold">||</span>
               <a
-                href="https://github.com/nayemkhan1999/Hotel-Booking-Server-site-a11"
+                href="https://github.com/programming-hero-web-course-4/b9a9-real-estate-Tofazzal26?tab=readme-ov-file"
                 target="blank"
-              >
-                <span className="font-medium text-blue-500 ml-2 ">
-                  GitHub Server-site link
-                </span>
-              </a>
+              ></a>
               <div className="divider"></div>
               <p className="text-left text-sm text-gray-500 opacity-90 tracking-wider">
                 User-Friendly Interface The hotel booking React project features
@@ -157,38 +146,9 @@ const Blogs = () => {
               </button>
             </form>
             <div>
-              <h1 className="font-bold">
-                live link url:
-                <a href="https://b12-talktown.web.app" target="blank">
-                  <span className="font-semibold text-blue-500 ml-2">
-                    https://b12-talktown.web.app
-                  </span>
-                </a>
-              </h1>
-              <h5 className="font-semibold">
-                Admin UserName:
-                <span className="font-normal text-blue-500 ml-2">
-                  shakibalhasan@gmail.com
-                </span>
-              </h5>
-              <h6 className="font-semibold mb-2">
-                Admin Password : <span className="ml-2">123456</span>
-              </h6>
-              <a
-                href="https://github.com/nayemkhan1999/Talk-Town-Client-Side-A12"
-                target="blank"
-              >
+              <a href="https://organic-foods-59169.web.app" target="blank">
                 <span className="font-medium text-blue-500 ml-2 ">
                   GitHub Client-site link
-                </span>
-              </a>
-              <span className="ml-3 font-bold">||</span>
-              <a
-                href="https://github.com/nayemkhan1999/Talk-Town-Server-site-a12"
-                target="blank"
-              >
-                <span className="font-medium text-blue-500 ml-2 ">
-                  GitHub Server-site link
                 </span>
               </a>
               <div className="divider"></div>
