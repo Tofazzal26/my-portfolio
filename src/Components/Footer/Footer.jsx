@@ -39,13 +39,13 @@ const Footer = () => {
                 <div>
                   <FaPhoneAlt size={35} className="text-center mx-auto" />
                   <p className="font-light tracking-widest mt-2">
-                    +8801826384854
+                    +8801306700357
                   </p>
                 </div>
                 <div>
                   <MdEmail size={35} className="text-center mx-auto" />
                   <p className="font-light tracking-widest mt-2">
-                    1999workmail@gmail.com
+                    mdtofazzalislam6789@gmail.com
                   </p>
                 </div>
               </div>
@@ -73,7 +73,7 @@ const Footer = () => {
                 <div>
                   <textarea
                     id="message"
-                    rows="3"
+                    rows="8"
                     placeholder="Your Message"
                     className="w-full p-3  bg-black text-white border-[#333] border rounded"
                   ></textarea>
